@@ -26,6 +26,8 @@ The following are the list of actions that will be practicing:
 * Go to last open file
 * Open/close project tab
 * Create toString(), equals or hashcode method
+* Set/Remove Breakpoint
+* Run debug mode
 
 ## Impetus
 
