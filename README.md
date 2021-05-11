@@ -28,6 +28,7 @@ The following are the list of actions that will be practicing:
 * Create toString(), equals or hashcode method
 * Set/Remove Breakpoint
 * Run debug mode
+* Find Usages
 
 ## Impetus
 
