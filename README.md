@@ -34,7 +34,7 @@ The following are the list of actions that will be practicing:
 * Switch to left/right open code
 * Select whole word
 * Go to terminal
-* 
+
 ## Impetus
 
 The Author wants to be more proficient in using IDE's shortcut keys so that he can be more productivity instead of relied on using mouse. Sometimes he also forget on the shortcut after away from programming for a certain period of time so he hopes that he can practice and use his muscle memory to remember those frequently used shortcut keys.
