@@ -15,7 +15,7 @@ START=$(date +%s)
 
 for((i=$start_line_num;i<=$stop_line_num;++i)) do
     clear
-    awk "NR == $i" README.md
+    awk "NR == $i" $SCRIPT_DIR/README.md
     read -p "Press any keys to continue"
 done
 
