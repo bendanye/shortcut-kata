@@ -1,10 +1,10 @@
 # shortcut-kata
 
-A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) to practice on the IDE's shortcut keys.
+A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) to practice shortcut keys on IDE, terminal or even browser.
 
 ## Disclaimer
 
-Although the list of shortcuts are mainly for Java but many of the actions can be reused for other programming languages.
+Although the list of shortcuts are mainly for Java/Python but many of the actions can be reused for other programming languages.
 
 ## List of shortcut
 
@@ -37,4 +37,4 @@ The following are the list of actions that will be practicing:
 
 ## Impetus
 
-The Author wants to be more proficient in using IDE's shortcut keys so that he can be more productivity instead of relied on using mouse. Sometimes he also forget on the shortcut after away from programming for a certain period of time so he hopes that he can practice and use his muscle memory to remember those frequently used shortcut keys.
+The Author wants to be more proficient in using shortcut keys so that he can be more productivity instead of relied on using mouse. Sometimes he also forget on the shortcut after away from programming for a certain period of time so he hopes that he can practice and use his muscle memory to remember those frequently used shortcut keys.
