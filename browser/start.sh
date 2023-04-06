@@ -15,7 +15,7 @@ open -a "Google Chrome" "https://github.com/bendanye/shortcut-kata"
 open -a "Google Chrome" "https://www.youtube.com"
 
 start_line_num=5
-stop_line_num=14
+stop_line_num=21
 
 START=$(date +%s)
 
