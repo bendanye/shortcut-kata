@@ -8,11 +8,13 @@ if ! test -f "$DATA_FILE"; then
     echo "start_date;time_taken_in_secs" > $DATA_FILE
 fi
 
-open --new -a "Google Chrome" "https://www.google.com"
+open --new -a "Google Chrome"
+open -a "Google Chrome" "https://www.google.com"
 open -a "Google Chrome" "https://www.yahoo.com"
 open -a "Google Chrome" "https://www.bing.com"
 open -a "Google Chrome" "https://github.com/bendanye/shortcut-kata"
 open -a "Google Chrome" "https://www.youtube.com"
+open -a "Google Chrome" "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
 
 start_line_num=5
 stop_line_num=21
