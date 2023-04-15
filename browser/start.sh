@@ -21,7 +21,7 @@ function open_chrome() {
 open_chrome
 
 start_line_num=5
-stop_line_num=21
+stop_line_num=22
 
 START=$(date +%s)
 
