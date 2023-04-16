@@ -1,2 +1,7 @@
 .idea
 time_taken.txt
+
+# python related files
+__pycache__
+.pytest_cache
+.coverage
