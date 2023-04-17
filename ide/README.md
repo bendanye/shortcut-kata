@@ -34,6 +34,7 @@ The following are the list of actions that will be practicing:
 * Switch to left/right open code
 * Select whole word
 * Go to terminal
+* Upper/lowercase word
 
 ## Setup
 
@@ -42,11 +43,11 @@ Make sure the IDE has all the tools you need to write codes and run tests.
 ## Practice 1
 
 1. Create new test code (let called it as test_p1)
-2. Inside the test code, write a test method that assert a function (p1_m1) from the source code (p1) to return "hello world"
+2. Inside the test code, write a test method that assert a function (p1_m1) from the source code (p1) to return "hello this is world"
 3. Run test to make sure is failed
 4. Create new source code (let called it as p1)
 5. Display the new source code at another view so that both test and source codes are displayed side by side
-6. Create new method in p1 that returns "hello world"
+6. Create new method in p1 that returns "hello this is world"
 7. Run test and the test should be passing
 8. Write another test method in test_p1 that expects a source function (p1_m2) to return "kata"
 9. Run this new test to make sure is failed
@@ -57,9 +58,9 @@ Make sure the IDE has all the tools you need to write codes and run tests.
 
 There is new requirements!! 
 
-Requirement 1: Instead of returning "hello world", it should return "hello shortcut".
+Requirement 1: Instead of returning "hello this is world", it should return "hello shortcut".
 
-1. Go to test_p1, edit the test method and change it to return "hello shortcut" by selecting "world" and replace with kata.
+1. Go to test_p1, edit the test method and change it to return "hello shortcut" by selecting "hello this is world" and replace with expected words.
 2. Run test to make sure is failed
 3. Go to p1 and make the change in p1_m1 to return "hello shortcut"
 4. Run test and the test should be passing
