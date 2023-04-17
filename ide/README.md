@@ -42,6 +42,8 @@ Make sure the IDE has all the tools you need to write codes and run tests.
 
 ## Practice 1
 
+### Part 1
+
 1. Create new test code (let called it as test_p1)
 2. Inside the test code, write a test method that assert a function (p1_m1) from the source code (p1) to return "hello this is world"
 3. Run test to make sure is failed
@@ -55,6 +57,8 @@ Make sure the IDE has all the tools you need to write codes and run tests.
 11. Run the test again and the test should be passing
 12. Run all tests in test_p1 and all tests should be passing
 13. Close test_p1 and p1
+
+### Part 2
 
 There is new requirements!! 
 
@@ -76,23 +80,44 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 
 ## Practice 2
 
-1. Run test2_1.py to make sure is failing
+### Part 1
+
+1. Open test2_1.py, run test_csv_header_is_correct to make sure is failing
 2. Open test2_1.csv
-3. Add new header column, address and value, "NA" to all the rows in between first and second column
-4. Go to last line of file and add new row
+3. Add new header column, address between first and second column
+4. Rerun test_csv_header_is_correct to make sure is passing now 
+5. Run test_address_value_is_added to make sure is failing
+6. Open test2_1.csv, add value, "NA" to all the rows in between first and second column
+7. Rerun test_address_value_is_added to make sure is passing now
+8. Run test_last_row_is_correct to make sure is failing
+9. Open test2_1.csv, go to last line of file and add new row
 ```
-31,NA,Test,2_2,hellokata@furl.net,Male
+1031,NA,Test,2_2,hellokata@furl.net,Male
 ```
-5. Run test2_1.py and make sure the test is passing
-6. Close all opened files
-7. Go to test2_2.py to make sure is failing
-8. Open test2_2.csv
-9. Go to line 10 and change value in the last column to "test2_2"
-10. Run test2_2.py to make sure the test is passing
-11. Close all opened files
-12. Go to test2_3.py to make sure the test is failing
-13. Open test2_3.csv
-14. Replace all the word from "word" to 'world' from line 4 to the end in the CSV file
-15. Run test 3 to make sure the test is passing
-16. Go to terminal and run `make test2` and ensure no errors
-17. Close all files
+10. Rerun test_last_row_is_correct to make sure is passing now
+11. Run test2_1.py and make sure the test is passing
+12. Close all opened files
+
+### Part 2
+
+1. Open test2_2.py, run test_row_10_is_correct to make sure is failing
+2. Open test2_2.csv
+3. Go to line 10 and change value in the last column to "test2_2"
+4. Rerun test_row_10_is_correct to make sure the test is passing
+5. Run test_row_16_and_17_is_correct to make sure is failing
+6. Go to line 16 and swap with row 17 (Meaning 16 become 17, 17 become 16)
+7. Rerun test_row_16_and_17_is_correct to make sure the test is passing
+8. Close all opened files
+
+### Part 3
+
+1. Open test2_3.py, run test_has_world to make sure the test is failing
+2. Open test2_3.csv
+3. Replace all the word from "word" to 'world' from line 4 to the end in the CSV file
+4. Rerun test_has_world to make sure the test is passing
+5. Run test_has_kata to make sure is failing
+6. Replace all the word from "doctor" to 'kata' in the CSV file
+7. Rerun test_has_kata to make sure the test is passing
+8. Run all tests in test2_3.py and make sure all tests are passing
+9. Go to terminal and run `make test2_python` and ensure all tests are passing
+10. Close all opened files

@@ -29,10 +29,8 @@ function kata() {
     echo "$START_FORMATTED;$type;$secs" >> $DATA_FILE
 }
 
-start_line_num=44
-stop_line_num=56
-
-kata 1 44 74
+kata 1 47 79
 kata 2 78 97
+kata 3 103 123
 
 echo "Shortcut kata (ide) Completed!"
