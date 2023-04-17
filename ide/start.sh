@@ -31,6 +31,6 @@ function kata() {
 
 kata 1 47 79
 kata 2 78 97
-kata 3 103 123
+kata 3 103 129
 
 echo "Shortcut kata (ide) Completed!"
