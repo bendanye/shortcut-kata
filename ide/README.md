@@ -29,7 +29,7 @@ The following are the list of actions that will be practicing:
 * Set/Remove Breakpoint
 * Run debug mode
 * Find Usages
-* Optimse import
+* Optimise import
 * Column mode
 * Switch to left/right open code
 * Select whole word
@@ -118,6 +118,12 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 5. Run test_has_kata to make sure is failing
 6. Replace all the word from "doctor" to 'kata' in the CSV file
 7. Rerun test_has_kata to make sure the test is passing
-8. Run all tests in test2_3.py and make sure all tests are passing
-9. Go to terminal and run `make test2_python` and ensure all tests are passing
-10. Close all opened files
+8. Run all tests in test2_3.py and make sure all tests are passing 
+9. Close all opened files
+
+### Part 4
+1. Open test2_2.py, run all the tests to make sure all are passing
+2. open Problems tab and noticed there are some warnings
+3. Resolve the warnings, unused imports by removing it
+4. Rerun all the tests to make sure all are still passing
+5. Go to terminal and run `make test2_python` and ensure all tests are passing
