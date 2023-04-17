@@ -122,6 +122,7 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 9. Close all opened files
 
 ### Part 4
+
 1. Open test2_2.py, run all the tests to make sure all are passing
 2. open Problems tab and noticed there are some warnings
 3. Resolve the warnings, unused imports by removing it
