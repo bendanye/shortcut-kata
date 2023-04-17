@@ -9,8 +9,9 @@ if ! test -f "$DATA_FILE"; then
 fi
 
 function kata() {
-    local start_line_num=$1
-    local stop_line_num=$2
+    local type=$1
+    local start_line_num=$2
+    local stop_line_num=$3
 
     local START=$(date +%s)
 
@@ -25,12 +26,13 @@ function kata() {
 
     local START_FORMATTED=$(date -r $START '+%Y-%m-%d %H:%M:%S')
 
-    echo "$START_FORMATTED;$secs" >> $DATA_FILE
+    echo "$START_FORMATTED;$type;$secs" >> $DATA_FILE
 }
 
 start_line_num=44
 stop_line_num=56
 
-kata 44 56
+kata 1 44 74
+kata 2 78 97
 
 echo "Shortcut kata (ide) Completed!"
