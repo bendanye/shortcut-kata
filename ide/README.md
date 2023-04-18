@@ -100,26 +100,28 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 
 ### Part 2
 
-1. Open test2_2.py, run test_row_10_is_correct to make sure is failing
-2. Open test2_2.csv
-3. Go to line 10 and change value in the last column to "test2_2"
-4. Rerun test_row_10_is_correct to make sure the test is passing
-5. Run test_row_16_and_17_is_correct to make sure is failing
-6. Go to line 16 and swap with row 17 (Meaning 16 become 17, 17 become 16)
-7. Rerun test_row_16_and_17_is_correct to make sure the test is passing
-8. Close all opened files
+1. Open test2_2.py, use `show structure popup` to open the structure of the tests
+2. Go to test_row_10_is_correct, run this test to make sure is failing
+3. Open test2_2.csv
+4. Go to line 10 and change value in the last column to "test2_2"
+5. Rerun test_row_10_is_correct to make sure the test is passing
+6. Run test_row_16_and_17_is_correct to make sure is failing
+7. Go to line 16 and swap with row 17 (Meaning 16 become 17, 17 become 16)
+8. Rerun test_row_16_and_17_is_correct to make sure the test is passing
+9. Close all opened files
 
 ### Part 3
 
-1. Open test2_3.py, run test_has_world to make sure the test is failing
-2. Open test2_3.csv
-3. Replace all the word from "word" to 'world' from line 4 to the end in the CSV file
-4. Rerun test_has_world to make sure the test is passing
-5. Run test_has_kata to make sure is failing
-6. Replace all the word from "doctor" to 'kata' in the CSV file
-7. Rerun test_has_kata to make sure the test is passing
-8. Run all tests in test2_3.py and make sure all tests are passing 
-9. Close all opened files
+1. Open test2_3.py, use `show structure popup` to open the structure of the tests
+2. Go to test_has_world, run this test to make sure is failing
+3. Open test2_3.csv
+4. Replace all the word from "word" to 'world' from line 4 to the end in the CSV file
+5. Rerun test_has_world to make sure the test is passing
+6. Run test_has_kata to make sure is failing
+7. Replace all the word from "doctor" to 'kata' in the CSV file
+8. Rerun test_has_kata to make sure the test is passing
+9. Run all tests in test2_3.py and make sure all tests are passing 
+10. Close all opened files
 
 ### Part 4
 
