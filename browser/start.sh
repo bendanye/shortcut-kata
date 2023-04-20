@@ -20,7 +20,11 @@ function open_chrome() {
 
 open_chrome
 
-start_line_num=5
+clear
+awk "NR == 5" $SCRIPT_DIR/README.md
+read -p "Press any keys to start"
+
+start_line_num=6
 stop_line_num=22
 
 START=$(date +%s)
