@@ -30,4 +30,4 @@ START_FORMATTED=$(date -r $START '+%Y-%m-%d %H:%M:%S')
 
 echo "$START_FORMATTED,$secs" >> $DATA_FILE
 
-echo "Shortcut kata (terminal) Completed in $secs seconds!"
+echo "Shortcut kata (terminal) completed in $secs seconds!"
