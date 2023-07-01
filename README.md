@@ -5,3 +5,5 @@ A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) to practice shortcut 
 ## Impetus
 
 The Author wants to be more proficient in using shortcut keys so that he can be more productivity instead of relied on using mouse. Sometimes he also forget on the shortcut after away from programming for a certain period of time so he hopes that he can practice and use his muscle memory to remember those frequently used shortcut keys.
+
+For more details can refer to this [blog](https://medium.com/@shen_soonng/simple-technique-to-practice-shortcuts-c19d40f1a018)
