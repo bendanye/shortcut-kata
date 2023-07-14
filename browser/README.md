@@ -11,7 +11,7 @@
 7. Go to fourth tab
 8. Go to third tab
 9. Close current tab
-10. Reopen the tab with
+10. Reopen the closed tab
 11. Go to last tab
 12. Click address bar and enter www.stackoverflow.com
 13. Scroll down
