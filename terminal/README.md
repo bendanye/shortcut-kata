@@ -10,5 +10,5 @@
 6. Change to "yes this is definitely shortcut kata hurrah"
 7. Change to "yes this is shortcut kata hurrah"
 8. Change to "yes this is the end"
-9. Delete the whole line
+9. Clear the whole line
 10. Close terminal
