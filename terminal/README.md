@@ -11,4 +11,6 @@
 7. Change to "yes this is shortcut kata hurrah"
 8. Change to "yes this is the end"
 9. Clear the whole line
-10. Close terminal
+10. Type ls and enter
+11. Clear the screen
+12. Close terminal
