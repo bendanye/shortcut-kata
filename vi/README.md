@@ -18,7 +18,8 @@
 14. Search for `vi`
 15. Search forward
 16. Search backward
-17. Go to line 9 and copy the entire line
-18. Paste it to next line
-19. Activate replace mode
-20. Quit without saving and close terminal
+17. Replace all words with "vi" with "replace"
+18. Go to line 9 and copy the entire line
+19. Paste it to next line
+20. Activate replace mode
+21. Quit without saving and close terminal
