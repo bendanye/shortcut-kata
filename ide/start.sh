@@ -5,32 +5,18 @@ SCRIPT_DIR=$( dirname -- "$0"; )
 DATA_FILE="$SCRIPT_DIR/time_taken.txt"
 
 if ! test -f "$DATA_FILE"; then
-    echo "start_date;practice_type;time_taken_in_secs" > $DATA_FILE
+    echo "start_date;time_taken_in_secs" > $DATA_FILE
 fi
 
-function kata() {
-    local type=$1
-    local start_line_num=$2
-    local stop_line_num=$3
+START=$(date +%s)
 
-    local START=$(date +%s)
+echo "Shortcut kata (ide) Started. Please any keys to stop"
+read
 
-    for((i=$start_line_num;i<=$stop_line_num;++i)) do
-        clear
-        awk "NR == $i" $SCRIPT_DIR/README.md
-        read -p "Press any keys to continue"
-    done
+END=$(date +%s)
+secs=$((END-START))
 
-    local END=$(date +%s)
-    local secs=$((END-START))
-
-    local START_FORMATTED=$(date -r $START '+%Y-%m-%d %H:%M:%S')
-
-    echo "$START_FORMATTED;$type;$secs" >> $DATA_FILE
-}
-
-kata 1 47 79
-kata 2 78 97
-kata 3 103 129
+START_FORMATTED=$(date -r $START '+%Y-%m-%d %H:%M:%S')
+echo "$START_FORMATTED,$secs" >> $DATA_FILE
 
 echo "Shortcut kata (ide) Completed!"
