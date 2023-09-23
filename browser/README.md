@@ -19,6 +19,7 @@
 15. Revert back the zoom to original settings
 16. Go back to top of the page
 17. Go back to previous page
-18. Refresh the page
-19. Open history
-20. Close window
+18. Duplicate current tab
+19. Refresh the page
+20. Open history
+21. Close window
