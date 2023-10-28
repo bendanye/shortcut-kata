@@ -73,7 +73,7 @@ Requirement 2: Instead of returning "kata", it should return "KATA"
 
 1. Go to test_p1, edit the test method and change it to return "KATA" by selecting "kata" and uppercase it.
 2. Run test to make sure is failed
-3. Go to p1 and make the change in p1_m2 to return "KATA"
+3. Go to method p1_m2 in p1 via "Navigate to Implementation" and change return "KATA"
 4. Run test and the test should be passing
 
 Run all tests and make sure all are passing then close test_p1 and p1.
@@ -130,3 +130,15 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 3. Resolve the warnings, unused imports by removing it
 4. Rerun all the tests to make sure all are still passing
 5. Go to terminal and run `make test2_python` and ensure all tests are passing
+
+## Practice 3
+
+1. Open p3.json and reformat the file
+2. Rename p3.json to p3_test.json
+3. Copy the existing object and paste it using clipboard history
+
+## End of all practices
+
+1. Commit with all files selected
+2. Rollback all files
+3. Delete new files that were created
