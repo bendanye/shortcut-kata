@@ -134,9 +134,10 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 ## Practice 3
 
 1. Open p3.json and reformat the file
-2. Rename p3.json to p3_test.json
-3. Copy the existing object and paste it using clipboard history
-4. Compare test2_1.csv with test2_2.csv
+2. Use "Select Opened File" function to select p3.json
+3. Rename p3.json to p3_test.json
+4. Copy the existing object and paste it using clipboard history
+5. Compare test2_1.csv with test2_2.csv
 
 ## End of all practices
 
