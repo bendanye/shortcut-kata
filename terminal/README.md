@@ -11,6 +11,7 @@
 7. Change to "yes this is shortcut kata hurrah"
 8. Change to "yes this is the end"
 9. Clear the whole line
-10. Type ls and enter
-11. Clear the screen
-12. Close terminal
+10. Type `sleep 1000` and cancel execution
+11. Type ls and enter
+12. Clear the screen
+13. Close terminal
