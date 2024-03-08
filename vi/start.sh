@@ -13,7 +13,7 @@ awk "NR == 5" $SCRIPT_DIR/README.md
 read -p "Press any keys to start"
 
 start_line_num=6
-stop_line_num=26
+stop_line_num=27
 
 START=$(date +%s)
 
