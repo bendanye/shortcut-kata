@@ -138,6 +138,9 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 3. Rename p3.json to p3_test.json
 4. Copy the existing object and paste it using clipboard history
 5. Compare test2_1.csv with test2_2.csv
+6. Open test3.py
+7. Go to next error
+8. Go to previous error
 
 ## End of all practices
 
