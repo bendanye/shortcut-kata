@@ -1,5 +1,7 @@
 #!/bin/bash
 
+STICKY_INSTRUCTION_MAIN_FILE=""
+
 SCRIPT_DIR=$( dirname -- "$0"; )
 
 DATA_FILE="$SCRIPT_DIR/time_taken.txt"
@@ -20,20 +22,25 @@ function open_chrome() {
 
 open_chrome
 
-clear
-awk "NR == 5" $SCRIPT_DIR/README.md
-read -p "Press any keys to start"
-
-start_line_num=6
-stop_line_num=25
-
-START=$(date +%s)
-
-for((i=$start_line_num;i<=$stop_line_num;++i)) do
+if [[ $STICKY_INSTRUCTION_MAIN_FILE == "" ]]; then
     clear
-    awk "NR == $i" $SCRIPT_DIR/README.md
-    read -p "Press any keys to continue"
-done
+    awk "NR == 5" $SCRIPT_DIR/README.md
+    read -p "Press any keys to start"
+
+    start_line_num=6
+    stop_line_num=25
+
+    START=$(date +%s)
+
+    for((i=$start_line_num;i<=$stop_line_num;++i)) do
+        clear
+        awk "NR == $i" $SCRIPT_DIR/README.md
+        read -p "Press any keys to continue"
+    done
+else
+    START=$(date +%s)
+    python3 $STICKY_INSTRUCTION_MAIN_FILE --markdown_path "$SCRIPT_DIR/README.md" --beginning_part "## Practice" --ending_part "## " --window_location_option "middle"
+fi
 
 END=$(date +%s)
 secs=$((END-START))
