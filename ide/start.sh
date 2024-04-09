@@ -14,9 +14,12 @@ echo "Shortcut kata (ide) Started. Please any keys to stop"
 read
 
 END=$(date +%s)
-secs=$((END-START))
+TOTAL_SECS=$((END-START))
 
 START_FORMATTED=$(date -r $START '+%Y-%m-%d %H:%M:%S')
-echo "$START_FORMATTED,$secs" >> $DATA_FILE
+echo "$START_FORMATTED,$TOTAL_SECS" >> $DATA_FILE
 
-echo "Shortcut kata (ide) Completed!"
+MINUTES=$(( TOTAL_SECS/60 ))
+SECS=$(( TOTAL_SECS%60 ))
+
+echo "Shortcut kata (ide) completed in $MINUTES minutes, $SECS seconds"
