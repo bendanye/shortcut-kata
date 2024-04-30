@@ -15,11 +15,12 @@
 11. Go to last tab
 12. Click address bar and enter www.stackoverflow.com
 13. Scroll down
-14. Zoom in twice
-15. Revert back the zoom to original settings
-16. Go back to top of the page
-17. Go back to previous page
-18. Duplicate current tab
-19. Refresh the page
-20. Open history
-21. Close window
+14. Scroll up
+15. Zoom in twice
+16. Revert back the zoom to original settings
+17. Go back to top of the page
+18. Go back to previous page
+19. Duplicate current tab
+20. Refresh the page
+21. Open history
+22. Close window

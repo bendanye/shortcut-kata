@@ -28,7 +28,7 @@ if [[ $STICKY_INSTRUCTION_MAIN_FILE == "" ]]; then
     read -p "Press any keys to start"
 
     start_line_num=6
-    stop_line_num=25
+    stop_line_num=26
 
     START=$(date +%s)
 
