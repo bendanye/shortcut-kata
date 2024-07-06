@@ -24,4 +24,5 @@
 20. Paste it to next line
 21. Undo the paste
 22. Activate replace mode
-23. Quit without saving and close terminal
+23. Clear all lines (Make it a empty file)
+24. Quit without saving and close terminal
