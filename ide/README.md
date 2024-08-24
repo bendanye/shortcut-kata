@@ -142,6 +142,14 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 7. Go to next error
 8. Go to previous error
 
+## Practice 4
+
+1. Zoom in
+2. Zoom out
+3. Reset
+4. Presenter Mode
+5. Exit Presenter mode
+
 ## End of all practices
 
 1. Commit with all files selected
