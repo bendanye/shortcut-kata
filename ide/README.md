@@ -137,10 +137,12 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 2. Use "Select Opened File" function to select p3.json
 3. Rename p3.json to p3_test.json
 4. Copy the existing object and paste it using clipboard history
-5. Compare test2_1.csv with test2_2.csv
-6. Open test3.py
-7. Go to next error
-8. Go to previous error
+5. Collapse the json file
+6. Expand the json file
+7. Compare test2_1.csv with test2_2.csv
+8. Open test3.py
+9. Go to next error
+10. Go to previous error
 
 ## Practice 4
 
