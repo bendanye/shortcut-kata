@@ -151,6 +151,7 @@ Run all tests and make sure all are passing then close test_p1 and p1.
 3. Reset
 4. Presenter Mode
 5. Exit Presenter mode
+6. Go to Run
 
 ## End of all practices
 
