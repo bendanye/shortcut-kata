@@ -14,5 +14,5 @@
 10. Type `sleep 1000` and cancel execution
 11. Type ls and enter
 12. Clear the screen
-13. Do reverse string, "sleep" and run the command
+13. Do reverse string, `l` and search until `sleep 1000` run the command
 14. Close terminal
