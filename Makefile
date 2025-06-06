@@ -1,5 +1,5 @@
 shortcut-browser-kata:
-	./browser/start.sh
+	python3 ./browser/start.py
 
 shortcut-terminal-kata:
 	./terminal/start.sh
