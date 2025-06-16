@@ -16,7 +16,12 @@ read
 END=$(date +%s)
 TOTAL_SECS=$((END-START))
 
-START_FORMATTED=$(date -r $START '+%Y-%m-%d %H:%M:%S')
+if [[ $OSTYPE == "darwin"* ]]; then
+    START_FORMATTED=$(date -r $START '+%Y-%m-%d %H:%M:%S')
+elif [[ $OSTYPE == "msys" || $OSTYPE == "cygwin"* ]]; then
+    START_FORMATTED=$(date -d @"$START" '+%Y-%m-%d %H:%M:%S')
+fi
+
 echo "$START_FORMATTED,$TOTAL_SECS" >> $DATA_FILE
 
 MINUTES=$(( TOTAL_SECS/60 ))
