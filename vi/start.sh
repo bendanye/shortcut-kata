@@ -7,12 +7,12 @@ SCRIPT_DIR=$( dirname -- "$0"; )
 DATA_FILE="$SCRIPT_DIR/time_taken.txt"
 
 if ! test -f "$DATA_FILE"; then
-    echo "start_date,time_taken_in_secs" > $DATA_FILE
+    echo "start_date,time_taken_in_secs" > "$DATA_FILE"
 fi
 
 if [[ $STICKY_INSTRUCTION_MAIN_FILE == "" ]]; then
     clear
-    awk "NR == 5" $SCRIPT_DIR/README.md
+    awk "NR == 5" "$SCRIPT_DIR/README.md"
     read -p "Press any keys to start"
 
     start_line_num=6
@@ -22,7 +22,7 @@ if [[ $STICKY_INSTRUCTION_MAIN_FILE == "" ]]; then
 
     for((i=$start_line_num;i<=$stop_line_num;++i)) do
         clear
-        awk "NR == $i" $SCRIPT_DIR/README.md
+        awk "NR == $i" "$SCRIPT_DIR/README.md"
         read -p "Press any keys to continue"
     done
 else
@@ -39,6 +39,6 @@ elif [[ $OSTYPE == "msys" || $OSTYPE == "cygwin"* ]]; then
     START_FORMATTED=$(date -d @"$START" '+%Y-%m-%d %H:%M:%S')
 fi
 
-echo "$START_FORMATTED,$secs" >> $DATA_FILE
+echo "$START_FORMATTED,$secs" >> "$DATA_FILE"
 
 echo "Shortcut kata (vi) completed in $secs seconds!"
