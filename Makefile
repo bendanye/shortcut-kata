@@ -7,5 +7,5 @@ shortcut-terminal-kata:
 shortcut-vi-kata:
 	./vi/start.sh
 
-shortcut-mac-kata:
-	./mac/start.sh
+shortcut-os-kata:
+	./os/start.sh
